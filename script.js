@@ -28,10 +28,10 @@ class BoxSimulation {
         // Array 2D untuk konfigurasi kotak (3 kolom x 4 baris)
         // Anda bisa mengubah nilai-nilai ini sesuai kebutuhan
         this.mapConfig = [
-            [20, 40, 20]   // Baris 4
+            [20, 40, 20],   // Baris 4
             [40, 60, 40],  // Baris 3
             [20, 40, 60],  // Baris 2  
-            [40, 20, 40],  // Baris 1
+            [40, 20, 40]  // Baris 1
         ];
         
         // Buat 12 persegi (3x4)
