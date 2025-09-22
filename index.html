@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <!-- Map 4x3 -->
+            <div class="map-container">
+                <h2>Map</h2>
+                <div class="map" id="map">
+                    <!-- Grid akan dibuat oleh JavaScript -->
+                </div>
+            </div>
+
+            <!-- Panel kanan dengan lingkaran -->
+            <div class="sidebar">
+                <h2>Pilihan</h2>
+                <div class="circles-container" id="circlesContainer">
+                    <div class="circle-section">
+                        <h3>Fake</h3>
+                        <div class="circle fake" draggable="true" data-type="fake">
+                            Fake
+                        </div>
+                        <div class="counter" id="fakeCounter">Tersisa: 1</div>
+                    </div>
+
+                    <div class="circle-section">
+                        <h3>R1</h3>
+                        <div class="circle r1" draggable="true" data-type="r1">
+                            R1
+                        </div>
+                        <div class="counter" id="r1Counter">Tersisa: 3</div>
+                    </div>
+
+                    <div class="circle-section">
+                        <h3>R2</h3>
+                        <div class="circle r2" draggable="true" data-type="r2">
+                            R2
+                        </div>
+                        <div class="counter" id="r2Counter">Tersisa: 4</div>
+                    </div>
+                </div>
+
+                <button class="reset-btn" id="resetBtn">Reset All</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
